@@ -13,10 +13,12 @@ function Timer() {
         text={`60%`}
         styles={buildStyles({
           textColor: "#fff",
+          pathColor: red,
 
           tailColor: "rgba(255,255,255,.2)",
         })}
       />
+      <div></div>
     </div>
   );
 }
